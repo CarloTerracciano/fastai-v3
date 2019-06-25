@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1BI1yea7NG99MUxhi4nNpyXOH7GEVibeZ'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1V4Nuk_cgW2E3lP52qHpSOuhQh9uR5t3U'
+export_file_name = 'carta_vetro_plastica.pkl'
 
 classes = ['glass', 'paper', 'plastic']
 path = Path(__file__).parent
